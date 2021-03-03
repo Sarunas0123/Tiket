@@ -6,7 +6,7 @@
 require "inc/functions.php";
 $id = $_GET['id'];
 ?>
-<?php foreach(printData() as $data):?>
+<?php foreach(readData() as $data):?>
     <?php if($data !=""):?>
         <?php $data = explode(",", $data)?>
         <?php if($id == $data[9]):?>
@@ -34,6 +34,6 @@ $id = $_GET['id'];
                 </div>
                 <div class="Blabber"><?=$data[8]?></div>
             </div>
-            <?php endif;?>
+        <?php endif;?>
     <?php endif;?>
 <?php endforeach;?>

@@ -10,3 +10,9 @@ function printData(){
     $messages = explode(':', $messages);
     return $messages;
 }
+function readData(){
+    $data = "data/info.txt";
+    $content = file_get_contents($data);
+    $messages = explode(':', $content);
+    return $messages;
+}
