@@ -1,0 +1,78 @@
+.MainTicket{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 400px;
+    background-color: red;
+}
+.Vaziuoja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 99%;
+    width: 25%;
+    border: 2px solid black;
+}
+.Ident{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 99%;
+    width: 25%;
+    border: 2px solid black;
+}
+.Money{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 99%;
+    width: 25%;
+    border: 2px solid black;
+}
+.Blabber{
+    height: 99%;
+    width: 25%;
+    border: 2px solid black;
+}
+.Iskur{
+    height: 45%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Ikur{
+    height: 45%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Vardai{
+    height: 50px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Id{
+    height: 50px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Price{
+    height: 50px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Baggage{
+    height: 50px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
