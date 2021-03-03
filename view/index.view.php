@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="index.css">
 <?php
 require "inc/functions.php";
 if(isset($_POST['send'])):?>
